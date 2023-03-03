@@ -1,0 +1,73 @@
+/* بسم الله الرحمن الرحیم */
+
+
+@font-face {
+  font-family: digital-numbers;
+  src: url(/DigitalNumbers-Regular.ttf);
+}
+* {
+  /* border: 2px solid black; */
+}
+
+body {
+  /* background-image: url(/pics/dark-room-with-wooden-floor.jpg); */
+  background-color: #cccccc;
+}
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+img {
+  margin: auto;
+  text-align: center;
+  width: 100%;
+  object-fit: initial;
+}
+.container {
+  width: 1500px;
+  margin: 0 auto;
+  border: 10px solid rgb(111, 140, 135);
+  position: relative;
+
+}
+.timer {
+  position: absolute;
+  top: 450px;
+  left: 750px;
+  margin: 0 auto;
+  transform: translate(-50%, -50%);
+  border: 10px solid rgb(111, 140, 135);
+  /* width: 400px; */
+  display: grid;
+  grid-template-columns:1fr 1fr ;
+  grid-template-rows: 2fr 1fr;
+  border-radius: 3px;
+  box-shadow: 0 7px 15px 2px rgba(0, 0, 0, 0.8);
+}
+
+.monitor {
+  text-align: center;
+  font-size: 75px;
+  color: cyan;
+  text-shadow: 0 0 15px cyan;
+  background-color: rgb(41, 41, 41);
+  width: 370px;
+  grid-column: 1/-1;
+  font-family: digital-numbers;
+}
+
+.btn {
+  color: cyan;
+  text-shadow: 0 0 15px cyan;
+  background-color: rgb(41, 41, 41);
+  border: none;
+  margin: 0;
+  font-size: 20px;
+  border: none;
+}
+.btn:hover {
+  background-color: grey;
+}
+
