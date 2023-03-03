@@ -3,7 +3,7 @@
 
 @font-face {
   font-family: digital-numbers;
-  src: url(/DigitalNumbers-Regular.ttf);
+  src: url(./DigitalNumbers-Regular.ttf);
 }
 * {
   /* border: 2px solid black; */
